@@ -1,0 +1,30 @@
+# XAMPP ve Sistem Geçici Dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE ve Editör Ayarları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log Dosyaları
+*.log
+error_log
+
+# Kullanıcı Yüklemeleri (Klasörü korur, içindeki test dosyalarını göndermez)
+upload/*
+uploads/*
+!upload/.gitkeep
+!uploads/.gitkeep
+
+# Veritabanı ve Çevre Değişkenleri (Şifreleri korumak için)
+.env
+*.sql
+*.bak
+
+# Yedek ve Geçici Dosyalar
+* - Kopya.php
+* copy.php
+asd.php
